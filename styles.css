@@ -29,6 +29,7 @@ body {
 }
 
 .navbar li {
+    display: inline;
     margin: 0;
 }
 
@@ -42,20 +43,50 @@ body {
     color: #5CDAF6; /* linkin hover-väri */
 }
 
-.container {
+.navbar a:active {
+    color: #5CDAF6; /* linkin aktiiviväri */
+}
+
+.adoptiosivu-container {
     font-family: 'Crimson Text', serif;
-    color: #211F1F;
-    font-size: larger;
+    color: #f7f0f0;
+    font-size: medium;
     padding: 20px;
     text-align: center;
 }
 
-.row {
+.row { 
     display: flex;
     align-items: center;
     gap: 4rem;
     justify-content: center;
     padding: 20px;
+    flex-wrap: wrap;
+}
+
+.col {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #211F1F;
+    background-color:#f7f0f0;
+    flex: 1;
+    min-width: 150px;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #211F1F;
+    text-align: center;
+    transition: background-color 0.3s;, color: 0.3s;
+    text-color: #211F1F;
+}
+
+.col:hover {
+    background-color: #211F1F;
+    color: #f7f0f0;
+    cursor: pointer;
+}
+
+.button-link {
+    text-decoration: none;
 }
 
 .content {
