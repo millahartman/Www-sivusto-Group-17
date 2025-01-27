@@ -1,48 +1,99 @@
 body {
+<<<<<<< Updated upstream
     background-color: #F3F3F2; /* vaalea tausta */
+=======
+    background-color: #EAE4E0;
+>>>>>>> Stashed changes
     font-family: 'Inknut Antiqua', serif;
     margin: 0;
     padding: 0;
-    color: #FFFFFF; /* fontin väri */
+    color: #000000;
 }
 
 .navbar {
-    background-color: #211F1F; /* tumma navigointipalkki */
+    background-color: #211F1F; 
     padding: 1rem;
     display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content: space-between;
+    height: 110px;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-img {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .navbar img {
-    max-height: 50px;
-    margin-right: 1rem;
-    justify-content: left;
+    max-height: 100px;
+    max-width: 140px;
+    margin-left: 1rem;
+    border-radius: 70% / 30%;
 }
 
-.navbar ul {
+.navbar-title {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    font-family: 'Crimson Text', serif;
+}
+
+.right-section {
+    display: flex;
+    gap: 5rem;
+    padding: 0;
+    margin-left: auto; /* Tärkeää: Lisää marginaalia vasemmalle, jotta se pysyy oikealla */
+    padding-right: 6rem; /* Lisää tyhjää tilaa oikealle */
+    align-items: center;
+    font-size: 1.7rem;
+    font-family: 'Crimson Text', serif;
+    margin-top: 80px;
+    
+}
+
+.right-section ul {
     list-style: none;
     display: flex;
     gap: 1rem;
     padding: 0;
     margin: 0;
+    justify-content: flex-end;
 }
 
+<<<<<<< Updated upstream
 .navbar li {
+=======
+.right-section li {
+    display: inline;
+>>>>>>> Stashed changes
     margin: 0;
 }
 
-.navbar a {
+.right-section a {
     color: #FFFFFF;
     text-decoration: none;
     font-weight: 700;
 }
 
-.navbar a:hover {
+.right-section a:hover {
     color: #5CDAF6; /* linkin hover-väri */
 }
 
+<<<<<<< Updated upstream
 .container {
+=======
+.right-section a:active {
+    color: #5CDAF6; /* linkin aktiiviväri */
+}
+
+.adoptiosivu-container {
+>>>>>>> Stashed changes
     font-family: 'Crimson Text', serif;
     color: #211F1F;
     font-size: larger;
@@ -56,6 +107,34 @@ body {
     gap: 4rem;
     justify-content: center;
     padding: 20px;
+<<<<<<< Updated upstream
+=======
+    flex-wrap: wrap;
+}
+
+.col {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #211F1F;
+    background-color:#f7f0f0;
+    flex: 1;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #211F1F;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+    color: #000000
+}
+
+.col:hover {
+    background-color: #211F1F;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.button-link {
+    text-decoration: none;
+>>>>>>> Stashed changes
 }
 
 .content {
