@@ -1,50 +1,78 @@
 body {
-    background-color: #EAE4E0; /* vaalea tausta */
+    background-color: #EAE4E0;
     font-family: 'Inknut Antiqua', serif;
     margin: 0;
     padding: 0;
-    color: #FFFFFF; /* fontin väri */
+    color: #000000; /* fontin väri */
 }
 
 .navbar {
-    background-color: #211F1F; /* tumma navigointipalkki */
+    background-color: #211F1F;
     padding: 1rem;
     display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content: space-between;
+    height: 110px;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-img {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .navbar img {
-    max-height: 50px;
-    margin-right: 1rem;
-    justify-content: left;
+    max-height: 100px;
+    max-width: 140px;
+    margin-left: 1rem;
+    border-radius: 70% / 30%;
 }
 
-.navbar ul {
+.navbar-title {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    font-family: 'Crimson Text', serif;
+}
+
+.right-section {
+    display: flex;
+    gap: 5rem;
+    padding: 0;
+    margin-left: auto;
+    padding-right: 6rem;
+    align-items: center;
+    font-size: 1.7rem;
+    font-family: 'Crimson Text', serif;
+    margin-top: 80px;
+}
+
+.right-section ul {
     list-style: none;
     display: flex;
     gap: 1rem;
     padding: 0;
     margin: 0;
+    justify-content: flex-end;
 }
 
-.navbar li {
-    display: inline;
-    margin: 0;
-}
-
-.navbar a {
+.right-section a {
     color: #FFFFFF;
     text-decoration: none;
     font-weight: 700;
 }
 
-.navbar a:hover {
-    color: #5CDAF6; /* linkin hover-väri */
+.right-section a:hover {
+    color: #5CDAF6;
 }
 
-.navbar a:active {
-    color: #5CDAF6; /* linkin aktiiviväri */
+.right-section a:active {
+    color: #5CDAF6;
 }
 
 .adoptiosivu-container {
@@ -55,7 +83,7 @@ body {
     text-align: center;
 }
 
-.row { 
+.row {
     display: flex;
     align-items: center;
     gap: 4rem;
@@ -68,15 +96,15 @@ body {
     margin: 10px;
     padding: 10px;
     border: 2px solid #211F1F;
-    background-color:#f7f0f0;
+    background-color: #f7f0f0;
     flex: 1;
     min-width: 150px;
     max-width: 300px;
     border-radius: 10px;
     box-shadow: 2px 2px 5px #211F1F;
     text-align: center;
-    transition: background-color 0.3s;, color: 0.3s;
-    text-color: #211F1F;
+    transition: background-color 0.3s, color 0.3s;
+    color: #211F1F;
 }
 
 .col:hover {
@@ -103,7 +131,7 @@ body {
 }
 
 .footer {
-    background-color: #211F1F; /* tumma footer */
+    background-color: #211F1F;
     padding: 1rem;
     text-align: center;
 }
