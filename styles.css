@@ -30,7 +30,7 @@ body {
     max-height: 100px;
     max-width: 140px;
     margin-left: 1rem;
-    border-radius: 70% / 30%;
+    border-radius: 70% / 60%;
 }
 
 .navbar-title {
@@ -176,15 +176,9 @@ body {
 }
 
 .footer {
-<<<<<<< Updated upstream
     background-color: #211F1F; 
     color: #FFFFFF; 
-    padding: 2rem 1rem; 
-=======
-<<<<<<< Updated upstream
-    background-color: #211F1F; /* tumma footer */
-    padding: 1rem;
->>>>>>> Stashed changes
+    padding: 0.5rem 0.5rem;
     text-align: center;
     font-family: 'Crimson Text', serif;
     border-top: 2px solid #5CDAF6; 
@@ -194,36 +188,12 @@ body {
 }
 
 .footer img {
-<<<<<<< Updated upstream
-    max-height: 90px; 
-    margin: 1rem 0; 
-    margin-left: auto; 
-}
-
-.footer p {
-    margin: 0.5rem 0; 
-    font-size: 1.1rem; 
-    text-align: left;
-}
-
-.footer a {
-    color: #5CDAF6; 
-    text-decoration: none;
-    font-weight: 700;
-}
-
-.footer a:hover {
-    color: #FFFFFF; /* linkkien hover-väri */
-    text-decoration: underline;
-=======
-    max-height: 50px;
-=======
+    max-height: 40px;
     background-color: #211F1F; 
     color: #FFFFFF; 
     padding: 1rem 1rem; 
     text-align: center;
     font-family: 'Crimson Text', serif;
-    border-top: 2px solid #5CDAF6; 
     display: flex;
     justify-content: space-between; 
     align-items: flex-start; 
@@ -235,46 +205,40 @@ body {
 }
 
 .footer .navbar-img img {
-    max-height: 90px; 
+    max-height: 80px; 
     margin-right: 1rem;
+    border-radius: 70% / 60%;
 }
 
 .footer .social-icons {
     display: flex;
-    gap: 1rem;
+    gap: 0.5rem;
 }
 
 .footer .social-icons img {
-    max-height: 30px; /* Pienempi logo sosiaalisen median ikoneille */
+    max-height: 35px;
 }
 
 .footer .text-container {
-    flex: 1; /* Venyttää kontainerin keskelle */
+    flex: 1; 
     text-align: center;
 }
 
 .footer .logo-container {
     display: flex;
     flex-direction: column;
-    align-items: flex-end; /* Kohdistetaan oikeaan laitaan */
-    margin-left: auto; /* Työntää logokontainerin oikealle */
+    align-items: flex-end; 
+    margin-left: auto; 
 }
 
 .footer .logo-container img {
     max-height: 80px;
-    margin-bottom: 0.5rem; /* Pieni väli kuvan ja tekstin välissä */
 }
 
 .footer .logo-container p {
     margin: 0.2rem 0; 
     font-size: 1rem; 
-    text-align: right; /* Kohdistetaan tekstit oikealle */
-}
-
-.footer .logo-container p:last-child {
-    margin-top: 0.2rem; /* Pieni gap viimeisen tekstin yläpuolella */
->>>>>>> Stashed changes
->>>>>>> Stashed changes
+    text-align: right; 
 }
 
 p {
