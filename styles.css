@@ -83,6 +83,17 @@ body {
     text-align: center;
 }
 
+.centered-text,
+.centered-heading {
+    background-color: rgba(240, 240, 240, 0.8); 
+    color: #211F1F;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px auto;
+    width: 80%; /* Voit säätää leveyttä tarpeen mukaan */
+}
+
 .tuetoimintaa-container {
     font-family: 'Crimson Text', serif;
     color: #f7f0f0;
@@ -134,7 +145,7 @@ body {
 .etusivu-content img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Katkaisee kuvan tarvittaessa */
+    object-fit: cover;
 }
 
 .overlay {
@@ -174,6 +185,39 @@ body {
 .overlay button:hover {
     background-color: #48b0cc;
 }
+
+.text-image-container {
+    display: flex;
+    gap: 2rem;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-boxadoptio {
+    background-color: rgba(240, 240, 240, 0.8); 
+    color: #211F1F;
+    padding: 20px;
+    font-family: 'Crimson Text', serif;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+}
+
+
+.text-boxbody {
+    flex: 1;
+    padding: 20px;
+    font-family: 'Crimson Text', serif;
+    background-color: rgba(240, 240, 240, 0.8);
+    color: #211F1F;
+    border-radius: 10px;
+    display: block;
+    clear: both;
+}
+
+
 
 .footer {
     background-color: #211F1F; 
