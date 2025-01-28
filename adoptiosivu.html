@@ -6,15 +6,16 @@
     <title>Eläinsuojelu M ry</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        
-    </style>
-
 </head>
 <body>
     <nav class="navbar">
-        <img src="tassulogo.jpg" alt="Eläinsuojelu logo">
-        <ul>
+        <div class="left-section">
+            <a class="navbar-img" href="etusivu.html"><img src="tassulogo.jpg" alt="Eläinsuojelu logo"></a>
+            <div class="navbar-title">
+                <h1>Eläinsuojelu M ry</h1>
+            </div>
+        </div>
+        <ul class="right-section">
             <li><a href="etusivu.html">Etusivu</a></li>
             <li><a href="adoptiosivu.html" class="active">Adoptio</a></li>
             <li><a href="yhdistys.html">Yhdistys</a></li>
@@ -22,23 +23,30 @@
             <li><a href="yhteystiedot.html">Yhteydenotto</a></li>
         </ul>
     </nav>
-    <div class="container">
+    <section class="adoptiosivu-container">
         <div class="row">
-            <div class="col"><button>Eläimen adoptointi</button></div>
-            <div class="col"><button>Tärkeitä ohjeita</button></div>
-            <div class="col"><button>Adoptioprosessi</button></div>
-            <div class="col"><button>Kotia etsivät eläimet</button></div>
-    </div>
-</div>
-    <div class="content">
-        <img src="kisujakoiru.jpg" alt="Kissajakoira">
-    
+            <a class="col button-link" href="#"><div><h2>ELÄIMEN ADOPTOINTI</h2></div></a>
+            <a class="col button-link" href="#"><div><h2>TÄRKEITÄ OHJEITA</h2></div></a>
+            <a class="col button-link" href="#"><div><h2>ADOPTIOPROSESSI</h2></div></a>
+            <a class="col button-link" href="#"><div><h2>KOTIA ETSIVÄT ELÄIMET</h2></div></a>
+        </div>
+    </section>
+    <main>
         <h1>Adoptio</h1>
         <p>Adoptio on vastuullinen tapa hankkia lemmikki. Eläinsuojelu M ry:n kautta voit löytää uuden perheenjäsenen, joka odottaa kotiaan. 
             Tutustu adoptio-ohjeisiin ja täytä hakemus.</p>
         <p>Kaikilta jotain koodipätkää/CSS/lorem ipsua tänne tääänks</p>
         <p>Liitetään adpotiosivu ja eläimet samalle sivulle, tulee selkeämpi navigointipalkki</p>
-    </div>
+        <article class="text-image-container">
+            <section class="text-box">
+                <h2>Eläimen adoptointi</h2>
+                <p>Adoptio on vastuullinen tapa hankkia lemmikki. Eläinsuojelu M ry:n kautta voit löytää uuden perheenjäsenen, joka odottaa kotiaan. Tutustu adoptio-ohjeisiin ja täytä hakemus.</p>
+            </section>
+            <figure class="content">
+                <img src="kisujakoiru.jpg" alt="Kissajakoira">
+            </figure>
+        </article>
+    </main>
     <footer class="footer">
         <p>© 2025 Eläinsuojelu M ry</p>
         <p>Ole mukana auttamassa eläimiä</p>
