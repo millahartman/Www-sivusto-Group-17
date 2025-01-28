@@ -1,51 +1,92 @@
 body {
-    background-color: #EAE4E0; /* vaalea tausta */
-    font-family: 'Inknut Antiqua', serif;
+    background-color: #EAE4E0;
+    font-family: 'Crimson Text', serif;
     margin: 0;
     padding: 0;
-    color: #FFFFFF; /* fontin väri */
+    color: #000000;
 }
 
 .navbar {
-    background-color: #211F1F; /* tumma navigointipalkki */
+    background-color: #211F1F;
     padding: 1rem;
     display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content: space-between;
+    height: 110px;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-img {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .navbar img {
-    max-height: 50px;
-    margin-right: 1rem;
-    justify-content: left;
+    max-height: 100px;
+    max-width: 140px;
+    margin-left: 1rem;
+    border-radius: 70% / 30%;
 }
 
-.navbar ul {
+.navbar-title {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    font-family: 'Crimson Text', serif;
+}
+
+.right-section {
+    display: flex;
+    gap: 5rem;
+    padding: 0;
+    margin-left: auto;
+    padding-right: 6rem;
+    align-items: center;
+    font-size: 1.7rem;
+    font-family: 'Crimson Text', serif;
+    margin-top: 80px;
+}
+
+.right-section ul {
     list-style: none;
     display: flex;
     gap: 1rem;
     padding: 0;
     margin: 0;
+    justify-content: flex-end;
 }
 
-.navbar li {
-    margin: 0;
-}
-
-.navbar a {
+.right-section a {
     color: #FFFFFF;
     text-decoration: none;
     font-weight: 700;
 }
 
-.navbar a:hover {
-    color: #5CDAF6; /* linkin hover-väri */
+.right-section a:hover {
+    color: #5CDAF6;
 }
 
-.container {
+.right-section a:active {
+    color: #5CDAF6;
+}
+
+.adoptiosivu-container {
     font-family: 'Crimson Text', serif;
-    color: #211F1F;
-    font-size: larger;
+    color: #f7f0f0;
+    font-size: medium;
+    padding: 20px;
+    text-align: center;
+}
+
+.tuetoimintaa-container {
+    font-family: 'Crimson Text', serif;
+    color: #f7f0f0;
+    font-size: medium;
     padding: 20px;
     text-align: center;
 }
@@ -56,29 +97,184 @@ body {
     gap: 4rem;
     justify-content: center;
     padding: 20px;
+    flex-wrap: wrap;
 }
 
-.content {
+.col {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #211F1F;
+    background-color: #f7f0f0;
+    flex: 1;
+    min-width: 150px;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #211F1F;
     text-align: center;
-    padding: 2rem;
+    transition: background-color 0.3s, color 0.3s;
     color: #211F1F;
-    font-family: 'Crimson Text', serif;
-    font-size: larger;
 }
 
-.content img {
-    max-width: 100%;
-    height: auto;
+.col:hover {
+    background-color: #211F1F;
+    color: #f7f0f0;
+    cursor: pointer;
+}
+
+.button-link {
+    text-decoration: none;
+}
+
+.etusivu-content {
+    position: relative;
+    height: calc(100vh - 110px - 70px); /* Korkeus minus navin ja footerin korkeus */
+    overflow: hidden;
+}
+
+.etusivu-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Katkaisee kuvan tarvittaessa */
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    text-align: left;
+    font-family: 'Inknut Antiqua', serif;
+    max-width: 600px;
+    width: 80%;
+    text-shadow: #211F1F 1px 1px 2px;
+}
+
+.overlay h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.overlay p {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+.overlay button {
+    background-color: #5CDAF6;
+    border: none;
+    padding: 1rem 2rem;
+    color: #FFFFFF;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.overlay button:hover {
+    background-color: #48b0cc;
 }
 
 .footer {
+<<<<<<< Updated upstream
+    background-color: #211F1F; 
+    color: #FFFFFF; 
+    padding: 2rem 1rem; 
+=======
+<<<<<<< Updated upstream
     background-color: #211F1F; /* tumma footer */
     padding: 1rem;
+>>>>>>> Stashed changes
     text-align: center;
+    font-family: 'Crimson Text', serif;
+    border-top: 2px solid #5CDAF6; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer img {
+<<<<<<< Updated upstream
+    max-height: 90px; 
+    margin: 1rem 0; 
+    margin-left: auto; 
+}
+
+.footer p {
+    margin: 0.5rem 0; 
+    font-size: 1.1rem; 
+    text-align: left;
+}
+
+.footer a {
+    color: #5CDAF6; 
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.footer a:hover {
+    color: #FFFFFF; /* linkkien hover-väri */
+    text-decoration: underline;
+=======
     max-height: 50px;
+=======
+    background-color: #211F1F; 
+    color: #FFFFFF; 
+    padding: 1rem 1rem; 
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+    border-top: 2px solid #5CDAF6; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+}
+
+.footer .left-section {
+    display: flex;
+    align-items: center;
+}
+
+.footer .navbar-img img {
+    max-height: 90px; 
+    margin-right: 1rem;
+}
+
+.footer .social-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer .social-icons img {
+    max-height: 30px; /* Pienempi logo sosiaalisen median ikoneille */
+}
+
+.footer .text-container {
+    flex: 1; /* Venyttää kontainerin keskelle */
+    text-align: center;
+}
+
+.footer .logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Kohdistetaan oikeaan laitaan */
+    margin-left: auto; /* Työntää logokontainerin oikealle */
+}
+
+.footer .logo-container img {
+    max-height: 80px;
+    margin-bottom: 0.5rem; /* Pieni väli kuvan ja tekstin välissä */
+}
+
+.footer .logo-container p {
+    margin: 0.2rem 0; 
+    font-size: 1rem; 
+    text-align: right; /* Kohdistetaan tekstit oikealle */
+}
+
+.footer .logo-container p:last-child {
+    margin-top: 0.2rem; /* Pieni gap viimeisen tekstin yläpuolella */
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 }
 
 p {
