@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eläinsuojelu M ry</title>
+    <title>Yhteystiedot | Eläinsuojelu M ry</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;700&display=swap" rel="stylesheet">
 </head>
@@ -23,7 +23,42 @@
             <li><a href="yhteystiedot.html" class="active">Yhteydenotto</a></li>
         </ul>
     </nav>
-    <p>Mohamedin sivu</p>
+
+    <main class="contact-page">
+        <!-- Vasemmalla: Yhteystiedot -->
+        <section class="contact-info">
+            <h2>Yhteystiedot</h2>
+            <p><b>Email:</b> info@elainsuojelumry.fi</p>
+            <p><b>Puhelin:</b> 040 123 4567</p>
+           
+        </section>
+
+        <!-- Vasemmalla alhaalla: Rahalahjoitus -->
+        <section class="donation-info">
+            <h2>Rahalahjoitus</h2>
+            <p><b>Tilinumero:</b> FI34 4596234756739</p>
+            <p><b>MobilePay:</b> 12345</p>
+            <p><b>Viitenumero:</b> 1234</p>
+        </section>
+
+        <!-- Oikealla: Yhteydenottolomake -->
+        <section class="contact-form-container">
+            <h2>Ota yhteyttä</h2>
+            <form class="contact-form">
+                <label for="name">Nimi:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Sähköposti:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Viesti:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Lähetä</button>
+            </form>
+        </section>
+    </main>
+
     <footer class="footer">
         <div class="left-section">
             <a class="navbar-img" href="etusivu.html"><img src="tassulogo.jpg" alt="Eläinsuojelu logo"></a>
