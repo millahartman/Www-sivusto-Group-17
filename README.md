@@ -1,5 +1,3 @@
-etusivu.html
-
 <!DOCTYPE html>
 <html lang="fi">
 <head>
