@@ -1,0 +1,8 @@
+Työnjako: Etusivun koodi - Max 
+Adoptiosivu (käytännöt, kysymykset, kotia etsivät eläimet + lyhyt info eläimestä) - Kaikki laittaa tänne vähän jotain koodipätkää 
+Yhdistys (Väliotsikot: Yhdistyksestä lyhyesti, historia, visio, missio, arvot) - Tänne myös kaikilta jotain, ks. esimerkkiä vaikka täältä: Yhdistys | Pet Rescue Finland ry 
+Auta ja tue toimintaa-sivu - Milla 
+Yhteydenotto ja laskutustiedot - Mohamed 
+Footer (yhteistyökumppanit, copyright, sertifikaatit, luvat) - Milla 
+Ulkoasuehdotelman palautus - Mohamed 
+Www-sivun palautus - Max
