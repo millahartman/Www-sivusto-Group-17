@@ -275,6 +275,10 @@ nav ul li {
     margin-bottom: 40px;
 }
 
+.yhdistys-content {
+    text-align: center;
+}
+
 .footer {
     background-color: #211F1F; 
     color: #FFFFFF; 
