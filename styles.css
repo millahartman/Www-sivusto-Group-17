@@ -279,7 +279,7 @@ nav ul li {
 
 .ydcontent {
     position: relative;
-    height: calc(100vh - 110px - 70px)
+    height: calc(100vh - 110px - 70px);
     overflow: hidden;
 }
 
@@ -341,11 +341,13 @@ nav ul li {
     text-align: center;
 }
 
-/* .text-boxyhdistys {
+.text-boxyhdistys {
     position: absolute;
     transform: translate(-50%, -50%);
     max-width: 60px;
     width: 80%;
+}
+
 .text-boxtue1 {
     background-color: rgba(240, 240, 240, 0.8); 
     color: #211F1F;
@@ -498,7 +500,6 @@ p {
     gap: 2rem;
 }
 
-/* Vasemman puolen sisältö */
 .contact-info, .donation-info {
     width: 40%;
     background-color: rgba(240, 240, 240, 0.8);
@@ -515,7 +516,6 @@ p {
     font-size: 1.2rem;
 }
 
-/* Oikean puolen lomake */
 .contact-form-container {
     width: 50%;
     background-color: rgba(240, 240, 240, 0.8);
@@ -561,3 +561,53 @@ p {
 .contact-form button:hover {
     background-color: #48b0cc;
 }
+/* Pöytäkoneet ja suuremmat laitteet */
+@media only screen and (min-width: 1024px) {
+    .right-section {
+        gap: 5rem;
+        font-size: 1.7rem;
+        margin-top: 80px;
+    }
+
+    .centered-text,
+    .centered-heading {
+        width: 80%;
+    }
+
+    .text-boxadoptio,
+    .text-boxtue1,
+    .text-boxtue2 {
+        width: 90%;
+    }
+
+    .text-boxtue3,
+    .text-boxtue4 {
+        width: 50%;
+    }
+}
+
+/* Tabletit ja keskikokoiset laitteet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .right-section {
+        gap: 2rem;
+        font-size: 1.4rem;
+        margin-top: 60px;
+    }
+
+    .centered-text,
+    .centered-heading {
+        width: 90%;
+    }
+
+    .text-boxadoptio,
+    .text-boxtue1,
+    .text-boxtue2 {
+        width: 90%;
+    }
+
+    .text-boxtue3,
+    .text-boxtue4 {
+        width: 70%;
+    }
+}
+

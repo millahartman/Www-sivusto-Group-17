@@ -16,7 +16,7 @@
             </div>
         </div>
         <ul class="right-section">
-            <li><a href="etusivu.html" class="active">Etusivu</li></a>
+            <li><a href="/" class="active">Etusivu</li></a>
             <li><a href="adoptiosivu.html">Adoptio</a></li>
             <li><a href="yhdistys.html">Yhdistys</a></li>
             <li><a href="tuetoimintaa.html">Tue toimintaa</a></li>
@@ -46,6 +46,13 @@
             <p>© 2025 Eläinsuojelu M ry</p>
             <p>Tietosuojaseloste</p>
         </div>
-    </footer>    
+    </footer>
+    <script>
+        const mobileMenu = document.querySelector('.mobile-menu');
+        const nav = document.querySelector('.navbar');
+        mobileMenu.addEventListener('click', () => {
+            nav.classList.toggle('active');
+        });
+    </script>
 </body>
 </html>
