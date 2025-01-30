@@ -276,17 +276,6 @@ nav ul li {
     margin-top: 5px;
     margin-bottom: 40px;
 }
-.etusivu-content {
-    position: relative;
-    height: calc(100vh - 110px - 70px); 
-    overflow: hidden;
-}
-
-.etusivu-content img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 
 .ydcontent {
     position: relative;
@@ -303,21 +292,74 @@ nav ul li {
     padding: 0;
 }
 
-/* .text-boxyhdistys {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    max-width: 60px;
-    width: 80%;
+.text-boxtue1 {
     background-color: rgba(240, 240, 240, 0.8); 
-    padding: 0; 
-    border-radius: 10px;
     color: #211F1F;
+    padding: 20px;
     font-family: 'Crimson Text', serif;
-    z-index: 1;
-    margin-top: 40px;
-    box-shadow: #211F1F 1px 1px 2px;
+    border-radius: 10px;
     text-align: center;
-} */
+    margin: 20px auto;
+    width: 90%;
+    box-shadow: #211f1f40 2px 2px 2px;
+}
+
+.text-boxtue2 {
+    background-color: rgba(240, 240, 240, 0.8); 
+    color: #211F1F;
+    padding: 20px;
+    font-family: 'Crimson Text', serif;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px auto;
+    width: 90%;
+    box-shadow: #211f1f40 2px 2px 2px;
+}
+
+.text-boxtue3 {
+    background-color: rgba(240, 240, 240, 0.8); 
+    color: #211F1F;
+    padding: 20px;
+    font-family: 'Crimson Text', serif;
+    border-radius: 10px;
+    text-align: left;
+    margin: 20px auto;
+    width: 50%;
+    box-shadow: #211f1f40 2px 2px 2px;
+    margin-left: 52px;
+}
+
+.text-boxtue4 {
+    background-color: rgba(240, 240, 240, 0.8); 
+    color: #211F1F;
+    padding: 20px;
+    font-family: 'Crimson Text', serif;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px auto;
+    width: 50%;
+    box-shadow: #211f1f40 2px 2px 2px;
+    margin-left: 52px;
+    margin-bottom: 50px;
+}
+
+.tue-content {
+    padding: 30px;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    position: absolute;
+    right: 0;
+    top: 77%;
+}
+
+.tue-content img {
+    width: 85%;
+    height: 70%;
+    border-radius: 8px;
+    margin-top: 105px;
+    margin-right: 40px;
+}
 
 .footer {
     background-color: #211F1F; 
