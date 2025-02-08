@@ -277,84 +277,6 @@ nav ul li {
     margin-bottom: 40px;
 }
 
-
-.ydcontent {
-    position: relative;
-}
-
-.ydimage-container {
-    position: relative;
-}
-
-.ydbackground-image {
-    position: absolute;
-    object-fit: cover;
-    z-index: -1;
-    height: 100%;
-}
-
-.ydbox-container {
-    display: flex;
-    justify-content: center;
-}
-
-.ydtop-box {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    
-}
-
-.ydbox-container-bottom {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    margin-top: 40px;
-    padding-top: 40px;
-}
-
-.ydbox {
-    background-color: #FFFFFF;
-    padding: 10px 20px;
-    border-radius: 8px;
-    font-family: Arial, sans-serif;
-    font-size: 1rem;
-    text-align: center;
-    width: fit-content;
-    height: fit-content;
-    margin: 0;
-}
-
-.ydbox h1 {
-    margin-bottom: 5px;
-}
-
-.ydbox p {
-    font-size: 1rem;
-    line-height: 1.5;
-}
-
-.ydbottom-box {
-    position: relative;
-    z-index: 1;
-    text-align: center;
-    padding: 20px;
-    width: 30%;
-    box-sizing: border-box;
-    margin-top: 400px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.ydbackground-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0.7;
-}
-
 /* .text-boxyhdistys {
     position: absolute;
     transform: translate(-50%, -50%);
@@ -430,7 +352,50 @@ nav ul li {
 }
 
 .yhdistys-content {
+    position: relative;
+    height: calc(100vh - 110px - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    overflow: hidden;
+}
+
+.ydbody {
+    margin: 0;
+    padding: 0;
+    background: url('tassut.jpg') no-repeat center center;
+    background-size: cover; 
+}
+
+.ydtop-text-box {
+    background-color: #FFFFFF;
     text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    
+}
+
+.ydbottom-circles {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 0 auto 20px auto;
+    padding: 20px;
+}
+
+.ydpallo {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #FFFFFF; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    flex-direction: column;
 }
 
 .footer {
